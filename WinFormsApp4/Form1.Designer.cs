@@ -42,6 +42,7 @@
             // 
             // button1
             // 
+            button1.ForeColor = Color.CornflowerBlue;
             button1.Location = new Point(480, 378);
             button1.Name = "button1";
             button1.Size = new Size(89, 44);
@@ -52,6 +53,7 @@
             // 
             // button2
             // 
+            button2.ForeColor = Color.CornflowerBlue;
             button2.Location = new Point(222, 378);
             button2.Name = "button2";
             button2.Size = new Size(89, 45);
@@ -62,6 +64,7 @@
             // 
             // button3
             // 
+            button3.ForeColor = Color.CornflowerBlue;
             button3.Location = new Point(350, 378);
             button3.Name = "button3";
             button3.Size = new Size(89, 45);
@@ -73,7 +76,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveCaption;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Cornsilk;
             label1.Location = new Point(313, 75);
             label1.Name = "label1";
             label1.Size = new Size(169, 25);
@@ -84,6 +89,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Cornsilk;
             label2.Location = new Point(222, 155);
             label2.Name = "label2";
             label2.Size = new Size(136, 20);
@@ -94,6 +100,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Cornsilk;
             label3.Location = new Point(222, 222);
             label3.Name = "label3";
             label3.Size = new Size(143, 20);
@@ -104,6 +111,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Cornsilk;
             label4.Location = new Point(248, 308);
             label4.Name = "label4";
             label4.Size = new Size(85, 20);
@@ -135,6 +143,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(txtResIMC);
             Controls.Add(txtAltura);
