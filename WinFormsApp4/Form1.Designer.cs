@@ -92,9 +92,9 @@
             label2.ForeColor = Color.Cornsilk;
             label2.Location = new Point(222, 155);
             label2.Name = "label2";
-            label2.Size = new Size(136, 20);
+            label2.Size = new Size(133, 20);
             label2.TabIndex = 4;
-            label2.Text = "Digite o seu peso?";
+            label2.Text = "Digite o seu peso:";
             // 
             // label3
             // 
@@ -103,9 +103,9 @@
             label3.ForeColor = Color.Cornsilk;
             label3.Location = new Point(222, 222);
             label3.Name = "label3";
-            label3.Size = new Size(143, 20);
+            label3.Size = new Size(140, 20);
             label3.TabIndex = 5;
-            label3.Text = "Digite a sua altura?";
+            label3.Text = "Digite a sua altura:";
             // 
             // label4
             // 
@@ -114,9 +114,9 @@
             label4.ForeColor = Color.Cornsilk;
             label4.Location = new Point(248, 308);
             label4.Name = "label4";
-            label4.Size = new Size(85, 20);
+            label4.Size = new Size(82, 20);
             label4.TabIndex = 6;
-            label4.Text = "Seu IMC é?";
+            label4.Text = "Seu IMC é:";
             // 
             // txtPeso
             // 
